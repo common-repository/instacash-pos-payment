@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: InstaCash POS 1.0.12\n"
+"POT-Creation-Date: 2023-01-26 16:48+0100\n"
+"PO-Revision-Date: 2023-01-26 16:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: InstaCash <info@instacash.hu>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: instacash-pos\n"
+
+#: extends/InstaCashApplication.php:35
+msgid "InstaCashPOS"
+msgstr "InstaCashPOS"
+
+#: extends/InstaCashApplication.php:36
+msgid "Apply for a loan through InstaCash"
+msgstr "Finanszírozás az InstaCash segítségével"
+
+#: extends/InstaCashApplication.php:90
+msgid "Pending payment"
+msgstr "Fizetésre vár"
+
+#: extends/InstaCashApplication.php:198
+msgid "The app is not responding, please try again later"
+msgstr "Az alkalmazás nem válaszol, próbálkozzon újra később"
+
+#: extends/InstaCashApplication.php:237
+msgid "Application Status"
+msgstr "Igénylés státusz"
+
+#. TRANSLATORS: %s is the number of orders in this status.
+#: extends/InstaCashApplication.php:314
+#, php-format
+msgid "InstaCash Application (%s)"
+msgstr "InstaCash Igénylés (%s)"
+
+#: src/Config.php:36
+msgid "Title"
+msgstr "Cím"
+
+#: src/Config.php:38
+msgid "This controls the title which the user sees during checkout."
+msgstr "A cím, amelyet a felhasználó a fizetés során lát."
+
+#: src/Config.php:39
+msgid "InstaCash"
+msgstr "InstaCash"
+
+#: src/Config.php:43
+msgid "Description"
+msgstr "Leírás"
+
+#: src/Config.php:45
+msgid "This controls the description which the user sees during checkout."
+msgstr "Leírás, amelyet a felhasználó a fizetés során lát."
+
+#: src/Config.php:46
+msgid "Apply for a loan and pay in installments"
+msgstr "Igényeljen részletfizetést"
+
+#: src/Config.php:50
+msgid "Instructions"
+msgstr "Instrukciók"
+
+#: src/Config.php:52
+msgid "Other instructions can be given after placing the order."
+msgstr "A rendelés leadását követően megjelenő instrukciók."
+
+#: src/Config.php:53
+msgid ""
+"In order to start the loan application, please open the following page and "
+"enter the necessary data!"
+msgstr ""
+"A hiteligénylés elindításához nyissa meg a következő oldalt és adja meg a "
+"szükséges adatokat!"
+
+#: src/Config.php:57
+msgid "API Key"
+msgstr "API kulcs"
+
+#: src/Config.php:59
+msgid "A unique alphanumeric string that identifies the service"
+msgstr "Egyedi alfanumerikus karakterlánc, amely azonosítja a szolgáltatást"
+
+#: src/Config.php:75
+msgid "Purchase created"
+msgstr "Vásárlás létrejött"
+
+#: src/Config.php:76
+msgid "A purchase has been made in the Instacash system"
+msgstr "A vásárlás létrejött az InstaCash rendszerében"
+
+#: src/Config.php:81
+msgid "Purchase linked to customer"
+msgstr "Vásárlóhoz kötve"
+
+#: src/Config.php:82
+msgid "Customer has logged into their account"
+msgstr "Igénylő bejelentkezett a vásárlói fiókba"
+
+#: src/Config.php:87
+msgid "Loan application started"
+msgstr "Hiteligénylés elindítva"
+
+#: src/Config.php:88
+msgid "The customer has started the loan application"
+msgstr "A vásárló elindította a hiteligénylést"
+
+#: src/Config.php:93
+msgid "Loan application under review"
+msgstr "Hiteligény elbírálás alatt"
+
+#: src/Config.php:94
+msgid ""
+"The bank is now checking whether the requested loan amount can be granted "
+"based on the customer´s data"
+msgstr ""
+"A bank most ellenőrzi, hogy a  vásárló adati alapján adható-e a kért "
+"hitelösszeg"
+
+#: src/Config.php:99
+msgid "Loan application approved"
+msgstr "Hiteligény elfogadva"
+
+#: src/Config.php:100
+msgid "The loan is being disbursed"
+msgstr "A hitel folyósítás alatt"
+
+#: src/Config.php:105
+msgid "Purchase revoked"
+msgstr "Vásárlás visszavonva"
+
+#: src/Config.php:106
+msgid "Loan application has been revoked"
+msgstr "A hiteligény visszavonásra került"
+
+#: src/Config.php:111
+msgid "Purchase cancelled"
+msgstr "Vásárlás törölve"
+
+#: src/Config.php:112
+msgid "Payment process terminated"
+msgstr "Fizetési folyamat megszűntetve"
+
+#: src/Config.php:117
+msgid "Loan application rejected"
+msgstr "Hiteligénylés elutasítva"
+
+#: src/Config.php:118
+msgid "Unsuccessful Loan Application"
+msgstr "Sikertelen Hiteligénylés"
+
+#: src/Config.php:123
+msgid "Amount transferred"
+msgstr "Összeg átutalva"
+
+#: src/Config.php:124
+msgid "The bank disbursed the amount"
+msgstr "A bank folyósította összeget"
+
+#: src/Config.php:129
+msgid "Payment Completed"
+msgstr "Fizetés Teljesítve"
+
+#: src/Config.php:130
+msgid "Payment was confirmed by the merchant"
+msgstr "Fizetést a kereskedő visszaigazolta"
+
+#: template/admin/boxContent.php:13
+msgid "Status"
+msgstr "Állapot"
+
+#: template/admin/boxContent.php:17
+msgid "Self-reliance"
+msgstr "Önerő"
+
+#: template/admin/boxContent.php:18
+msgid "Amount requested"
+msgstr "Igénylet összeg"
+
+#: template/admin/boxContent.php:19
+msgid "Last modify"
+msgstr "Utolsó módosítás"
+
+#: template/admin/boxContent.php:20
+msgid "Date of purchase"
+msgstr "Vásárlás ideje"
+
+#: template/admin/boxContent.php:22 template/admin/onboardNotice.php:32
+msgid "Merchant Portal"
+msgstr "Kereskedői felület"
+
+#: template/admin/boxNotice.php:2
+msgid "Order status changed by loan application status."
+msgstr "Rendelés állapot változott a kapcsolt igénylés állapota miatt."
+
+#: template/admin/onboardNotice.php:20
+msgid ""
+"Thank you for installing the payment solution of instacash, so the digital "
+"installment payment solution will help you to reduce cart abandonment and "
+"increase the average cart length."
+msgstr ""
+"Köszönjük, hogy telepítetted az InstaCash fizetési megoldását, így a "
+"digitális részletfizetési megoldás segíteni fog neked, hogy csökkentsd a "
+"kosárelhagyást és növeld az átlagos kosárértéket."
+
+#: template/admin/onboardNotice.php:23
+msgid "If you haven´t signed up for our service yet, click"
+msgstr "Ha még nem szerződtél velünk a szolgáltatásunkra, akkor kattints"
+
+#: template/admin/onboardNotice.php:23
+msgid "here"
+msgstr "ide"
+
+#: template/admin/onboardNotice.php:24
+msgid ""
+", to go through the validation completely online, without a personal meeting:"
+msgstr ""
+", hogy teljesen online, személyes találkozó nélkül végigmenj a validáción:"
+
+#: template/admin/onboardNotice.php:27
+msgid "Buy NOW, Pay later!"
+msgstr "Vásárlás először, fizetés később!"
+
+#: template/calculator.php:32 template/calculator.php:51
+#: template/calculator.php:52 template/calculator.php:101
+#: template/calculator.php:109 template/calculator.php:117
+#: template/calculator.php:124 template/calculator.php:131
+msgid "$"
+msgstr "Ft"
+
+#: template/calculator.php:39
+msgid "Calculation"
+msgstr "Kalkuláció"
+
+#: template/calculator.php:43
+msgid "Down Payment"
+msgstr "Önerő"
+
+#: template/calculator.php:46
+msgid "Dollar"
+msgstr "HUF"
+
+#: template/calculator.php:51
+msgid "Min."
+msgstr "Min."
+
+#: template/calculator.php:52
+msgid "Max."
+msgstr "Max."
+
+#: template/calculator.php:58
+msgid "Payment installments"
+msgstr "A törlesztés részletei"
+
+#: template/calculator.php:62 template/calculator.php:65
+#: template/calculator.php:68 template/calculator.php:71
+msgid "Month"
+msgstr "Hó"
+
+#: template/calculator.php:79
+msgid "Offer"
+msgstr "Ajánlat"
+
+#: template/calculator.php:89
+msgid "Loan name"
+msgstr "Maxi Plus kölcsön"
+
+#: template/calculator.php:90
+msgid "Bank Name"
+msgstr "MKB Bank"
+
+#: template/calculator.php:98
+msgid "Amount"
+msgstr "Finanszírozott összeg"
+
+#: template/calculator.php:106
+msgid "Installment"
+msgstr "Havi törlesztő"
+
+#: template/calculator.php:114
+msgid "Total Repayment"
+msgstr "Teljes visszafizetendő"
+
+#: template/calculator.php:124
+msgid "Minimum claimable amount"
+msgstr "A minimálisan igénylehető összeg"
+
+#: template/calculator.php:125
+msgid "We have modified the calculation accordingly."
+msgstr "A kalkulációt erre az összegre módosítottuk."
+
+#: template/calculator.php:126 template/calculator.php:130
+msgid "You can spend the remaining"
+msgstr "A fennmaradó"
+
+#: template/calculator.php:126 template/calculator.php:132
+msgid "amount on your other expenses."
+msgstr "összeget fordíthatja egyéb kiadásaira."
+
+#: template/calculator.php:129
+msgid ""
+"The minimum loan amount that can be applied for requires less self-reliance."
+msgstr "A minimum igényelhető hitelösszeghez kisebb önerő szükséges."
+
+#: template/instructions.php:16
+msgid ""
+"If the application interface did not open on a new tab, please click on the "
+"button below."
+msgstr ""
+"Amennyiben nem nyílt volna meg az igénylési felület, kérlek kattints az "
+"alábbi gombra."
+
+#: template/instructions.php:19
+msgid "Start the application"
+msgstr "Elindítom az igénylést"

@@ -1,0 +1,16 @@
+includes:
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+parameters:
+    level: max
+    inferPrivatePropertyTypeFromConstructor: true
+    paths:
+        - %currentWorkingDirectory%/
+    excludePaths:
+        - %currentWorkingDirectory%/vendor/
+        - %currentWorkingDirectory%/extends/
+    bootstrapFiles:
+    ignoreErrors:
+        # Woocommerce functions.
+        - '#^Function (WC|wc_get_logger|wc_get_order) not found\.$#'
+        # Template included to WC_Payment_Gateway.
+        - '#^Variable \$(this|request|status) might not be defined\.$#'

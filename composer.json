@@ -1,0 +1,46 @@
+{
+  "name": "fintrous/instacash-pos",
+  "type": "wordpress-plugin",
+  "description": "POS plugin for woocommerce checkout",
+  "license": "proprietary",
+    "require-dev": {
+      "phpstan/phpstan": "^1.6",
+      "szepeviktor/phpstan-wordpress": "^1.1",
+      "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+      "slevomat/coding-standard": "^7.2",
+      "brianhenryie/strauss": "^0.13.0"
+    },
+  "autoload": {
+    "classmap": [
+      "src/",
+      "extends/",
+      "vendor-instacash/"
+    ]
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.4",
+    "symfony/http-foundation": "^5.4",
+    "giggsey/libphonenumber-for-php": "^8.12"
+  },
+  "extra": {
+    "strauss": {
+        "target_directory": "vendor-instacash",
+        "namespace_prefix": "InstaCash\\",
+        "classmap_prefix": "InstaCash",
+        "constant_prefix": "insta_",
+        "packages": [
+        ],
+        "override_autoload": {
+        },
+        "exclude_from_prefix": {
+            "packages": [
+            ],
+            "namespaces": [
+            ],
+            "file_patterns": [
+            ]
+        },
+        "delete_vendor_files": true
+    }
+  }
+}

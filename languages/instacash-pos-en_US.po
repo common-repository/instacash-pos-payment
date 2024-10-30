@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: InstaCash POS 1.0.12\n"
+"POT-Creation-Date: 2023-01-26 16:48+0100\n"
+"PO-Revision-Date: 2023-01-26 16:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: InstaCash <info@instacash.hu>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: instacash-pos\n"
+
+#: extends/InstaCashApplication.php:35
+msgid "InstaCashPOS"
+msgstr "InstaCashPOS"
+
+#: extends/InstaCashApplication.php:36
+msgid "Apply for a loan through InstaCash"
+msgstr "Apply for a loan through InstaCash"
+
+#: extends/InstaCashApplication.php:90
+msgid "Pending payment"
+msgstr "Pending payment"
+
+#: extends/InstaCashApplication.php:198
+msgid "The app is not responding, please try again later"
+msgstr "The app is not responding, please try again later"
+
+#: extends/InstaCashApplication.php:237
+msgid "Application Status"
+msgstr "Application Status"
+
+#. TRANSLATORS: %s is the number of orders in this status.
+#: extends/InstaCashApplication.php:314
+#, php-format
+msgid "InstaCash Application (%s)"
+msgstr "InstaCash Application (%s)"
+
+#: src/Config.php:36
+msgid "Title"
+msgstr "Title"
+
+#: src/Config.php:38
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+#: src/Config.php:39
+msgid "InstaCash"
+msgstr "InstaCash"
+
+#: src/Config.php:43
+msgid "Description"
+msgstr "Description"
+
+#: src/Config.php:45
+msgid "This controls the description which the user sees during checkout."
+msgstr "This controls the description which the user sees during checkout."
+
+#: src/Config.php:46
+msgid "Apply for a loan and pay in installments"
+msgstr "Apply for a loan and pay in installments"
+
+#: src/Config.php:50
+msgid "Instructions"
+msgstr "Instructions"
+
+#: src/Config.php:52
+msgid "Other instructions can be given after placing the order."
+msgstr "Other instructions can be given after placing the order."
+
+#: src/Config.php:53
+msgid ""
+"In order to start the loan application, please open the following page and "
+"enter the necessary data!"
+msgstr ""
+"In order to start the loan application, please open the following page and "
+"enter the necessary data!"
+
+#: src/Config.php:57
+msgid "API Key"
+msgstr "API Key"
+
+#: src/Config.php:59
+msgid "A unique alphanumeric string that identifies the service"
+msgstr "A unique alphanumeric string that identifies the service"
+
+#: src/Config.php:75
+msgid "Purchase created"
+msgstr "Purchase created"
+
+#: src/Config.php:76
+msgid "A purchase has been made in the Instacash system"
+msgstr "A purchase has been made in the Instacash system"
+
+#: src/Config.php:81
+msgid "Purchase linked to customer"
+msgstr "Purchase linked to customer"
+
+#: src/Config.php:82
+msgid "Customer has logged into their account"
+msgstr "Customer has logged into their account"
+
+#: src/Config.php:87
+msgid "Loan application started"
+msgstr "Loan application started"
+
+#: src/Config.php:88
+msgid "The customer has started the loan application"
+msgstr "The customer has started the loan application"
+
+#: src/Config.php:93
+msgid "Loan application under review"
+msgstr "Loan application under review"
+
+#: src/Config.php:94
+msgid ""
+"The bank is now checking whether the requested loan amount can be granted "
+"based on the customer´s data"
+msgstr ""
+"The bank is now checking whether the requested loan amount can be granted "
+"based on the customer´s data"
+
+#: src/Config.php:99
+msgid "Loan application approved"
+msgstr "Loan application approved"
+
+#: src/Config.php:100
+msgid "The loan is being disbursed"
+msgstr "The loan is being disbursed"
+
+#: src/Config.php:105
+msgid "Purchase revoked"
+msgstr "Purchase revoked"
+
+#: src/Config.php:106
+msgid "Loan application has been revoked"
+msgstr "Loan application has been revoked"
+
+#: src/Config.php:111
+msgid "Purchase cancelled"
+msgstr "Purchase cancelled"
+
+#: src/Config.php:112
+msgid "Payment process terminated"
+msgstr "Payment process terminated"
+
+#: src/Config.php:117
+msgid "Loan application rejected"
+msgstr "Loan application rejected"
+
+#: src/Config.php:118
+msgid "Unsuccessful Loan Application"
+msgstr "Unsuccessful Loan Application"
+
+#: src/Config.php:123
+msgid "Amount transferred"
+msgstr "Amount transferred"
+
+#: src/Config.php:124
+msgid "The bank disbursed the amount"
+msgstr "The bank disbursed the amount"
+
+#: src/Config.php:129
+msgid "Payment Completed"
+msgstr "Payment Completed"
+
+#: src/Config.php:130
+msgid "Payment was confirmed by the merchant"
+msgstr "Payment was confirmed by the merchant"
+
+#: template/admin/boxContent.php:13
+msgid "Status"
+msgstr "Status"
+
+#: template/admin/boxContent.php:17
+msgid "Self-reliance"
+msgstr "Self-reliance"
+
+#: template/admin/boxContent.php:18
+msgid "Amount requested"
+msgstr "Amount requested"
+
+#: template/admin/boxContent.php:19
+msgid "Last modify"
+msgstr "Last modify"
+
+#: template/admin/boxContent.php:20
+msgid "Date of purchase"
+msgstr "Date of purchase"
+
+#: template/admin/boxContent.php:22 template/admin/onboardNotice.php:32
+msgid "Merchant Portal"
+msgstr "Merchant Portal"
+
+#: template/admin/boxNotice.php:2
+msgid "Order status changed by loan application status."
+msgstr "Order status changed by loan application status."
+
+#: template/admin/onboardNotice.php:20
+msgid ""
+"Thank you for installing the payment solution of instacash, so the digital "
+"installment payment solution will help you to reduce cart abandonment and "
+"increase the average cart length."
+msgstr ""
+"Thank you for installing the payment solution of instacash, so the digital "
+"installment payment solution will help you to reduce cart abandonment and "
+"increase the average cart length."
+
+#: template/admin/onboardNotice.php:23
+msgid "If you haven´t signed up for our service yet, click"
+msgstr "If you haven´t signed up for our service yet, click"
+
+#: template/admin/onboardNotice.php:23
+msgid "here"
+msgstr "here"
+
+#: template/admin/onboardNotice.php:24
+msgid ""
+", to go through the validation completely online, without a personal meeting:"
+msgstr ""
+", to go through the validation completely online, without a personal meeting:"
+
+#: template/admin/onboardNotice.php:27
+msgid "Buy NOW, Pay later!"
+msgstr "Buy NOW, Pay later!"
+
+#: template/calculator.php:32 template/calculator.php:51
+#: template/calculator.php:52 template/calculator.php:101
+#: template/calculator.php:109 template/calculator.php:117
+#: template/calculator.php:124 template/calculator.php:131
+msgid "$"
+msgstr "$"
+
+#: template/calculator.php:39
+msgid "Calculation"
+msgstr "Calculation"
+
+#: template/calculator.php:43
+msgid "Down Payment"
+msgstr "Down Payment"
+
+#: template/calculator.php:46
+msgid "Dollar"
+msgstr "Dollar"
+
+#: template/calculator.php:51
+msgid "Min."
+msgstr "Min."
+
+#: template/calculator.php:52
+msgid "Max."
+msgstr "Max."
+
+#: template/calculator.php:58
+msgid "Payment installments"
+msgstr "Payment installments"
+
+#: template/calculator.php:62 template/calculator.php:65
+#: template/calculator.php:68 template/calculator.php:71
+msgid "Month"
+msgstr "Month"
+
+#: template/calculator.php:79
+msgid "Offer"
+msgstr "Offer"
+
+#: template/calculator.php:89
+msgid "Loan name"
+msgstr "Loan name"
+
+#: template/calculator.php:90
+msgid "Bank Name"
+msgstr "Bank Name"
+
+#: template/calculator.php:98
+msgid "Amount"
+msgstr "Amount"
+
+#: template/calculator.php:106
+msgid "Installment"
+msgstr "Installment"
+
+#: template/calculator.php:114
+msgid "Total Repayment"
+msgstr "Total Repayment"
+
+#: template/calculator.php:124
+msgid "Minimum claimable amount"
+msgstr "Minimum claimable amount"
+
+#: template/calculator.php:125
+msgid "We have modified the calculation accordingly."
+msgstr "We have modified the calculation accordingly."
+
+#: template/calculator.php:126 template/calculator.php:130
+msgid "You can spend the remaining"
+msgstr "You can spend the remaining"
+
+#: template/calculator.php:126 template/calculator.php:132
+msgid "amount on your other expenses."
+msgstr "amount on your other expenses."
+
+#: template/calculator.php:129
+msgid ""
+"The minimum loan amount that can be applied for requires less self-reliance."
+msgstr ""
+"The minimum loan amount that can be applied for requires less self-reliance."
+
+#: template/instructions.php:16
+msgid ""
+"If the application interface did not open on a new tab, please click on the "
+"button below."
+msgstr ""
+"If the application interface did not open on a new tab, please click on the "
+"button below."
+
+#: template/instructions.php:19
+msgid "Start the application"
+msgstr "Start the application"
